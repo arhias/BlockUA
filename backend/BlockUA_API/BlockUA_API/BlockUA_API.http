@@ -1,0 +1,6 @@
+@BlockUA_API_HostAddress = http://localhost:5198
+
+GET {{BlockUA_API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
