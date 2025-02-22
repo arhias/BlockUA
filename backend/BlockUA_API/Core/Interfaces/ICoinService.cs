@@ -11,4 +11,5 @@ public interface ICoinService
     Task<Response> GetCoinCost(string coinId);
     Task<Response> GetCoinInfo(string coinId);
     Task<Response> GetCoins();
+    Task<Response> GetExchangeRates(string coinId);
 }

@@ -66,4 +66,11 @@ public class CoinService(BlockUaDbContext context, PasswordHasher hasher) : ICoi
         if (coins == null) return new Response(404, "Coins not found");
         return new Response(200, "Successfully", coins.Select(c => c.ToDtoString()));
     }
+
+    public async Task<Response> GetExchangeRates(string coinId)
+    {
+        Coin coin = await context.Coins.Find(c => c.Id.ToString().Equals(coinId)).FirstOrDefaultAsync();
+        if (coin == null) return new Response(404, "Coin not found");
+        return new Response(200, "Successfully", coin.ExchangeRates.Select(er => er.ToDtoString()));
+    }
 }

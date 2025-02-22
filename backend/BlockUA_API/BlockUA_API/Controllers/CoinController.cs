@@ -96,5 +96,20 @@ namespace BlockUA_API.Controllers
                 _ => BadRequest("Something went wrong")
             };
         }
+
+        [Route("coin/exchange-rates")]
+        [HttpGet]
+        public async Task<IActionResult> GetCoinExchangeRates(string coinId)
+        {
+            //var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            //if (string.IsNullOrEmpty(userId)) return Unauthorized();
+            var response = await coinService.GetExchangeRates(coinId);
+            return response.Code switch
+            {
+                200 => Ok(response.Data),
+                404 => NotFound(),
+                _ => BadRequest("Something went wrong")
+            };
+        }
     }
 }
