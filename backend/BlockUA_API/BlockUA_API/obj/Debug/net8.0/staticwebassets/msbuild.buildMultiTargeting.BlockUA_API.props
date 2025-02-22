@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BlockUA_API.props" />
+</Project>

@@ -7,7 +7,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Database\Entities\" />
+      <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+      <PackageReference Include="MongoDB.Driver" Version="3.2.0" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.6.0" />
     </ItemGroup>
 
 </Project>
