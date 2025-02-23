@@ -1,0 +1,36 @@
+.dashboard-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .dashboard-header {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-overview {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .dashboard-card {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 45%;
+  }
+  
+  .dashboard-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .dashboard-card p {
+    font-size: 1rem;
+    color: #777;
+  }
+  

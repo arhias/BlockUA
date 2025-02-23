@@ -1,0 +1,154 @@
+.container {
+    background-color: #42358b;
+    color: #fff;
+    padding: 40px;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(207, 44, 44, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+form {
+    background-color: #342d5a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(41, 21, 116, 0.2);
+    width: 100%;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 2px solid #444;
+    border-radius: 6px;
+    background-color: #222;
+    color: #fff;
+    font-size: 1rem;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.checkbox-label {
+    color: #bbb;
+    font-size: 0.9rem;
+}
+
+.checkbox-label input {
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.divider {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.divider span {
+    color: #aaa;
+}
+
+.social-buttons {
+    width: 100%;
+}
+
+.social-button {
+    width: 100%;
+    padding: 14px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.social-button i {
+    margin-right: 10px;
+}
+
+.social-button.google {
+    background-color: #db4437;
+}
+
+.social-button.apple {
+    background-color: #242a5a;
+}
+
+.social-button.telegram {
+    background-color: #0088cc;
+}
+
+.social-button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.support-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.support-button i {
+    font-size: 1.2rem;
+}
