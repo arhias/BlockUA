@@ -1,0 +1,13 @@
+C:\Users\Павло.DESKTOP-1BS6PFI\Documents\GitHub\BlockUA\backend\BlockUA_API\Core\bin\Debug\net8.0\Core.deps.json
+C:\Users\Павло.DESKTOP-1BS6PFI\Documents\GitHub\BlockUA\backend\BlockUA_API\Core\bin\Debug\net8.0\Core.dll
+C:\Users\Павло.DESKTOP-1BS6PFI\Documents\GitHub\BlockUA\backend\BlockUA_API\Core\bin\Debug\net8.0\Core.pdb
+C:\Users\Павло.DESKTOP-1BS6PFI\Documents\GitHub\BlockUA\backend\BlockUA_API\Core\obj\Debug\net8.0\Core.csproj.AssemblyReference.cache
+C:\Users\Павло.DESKTOP-1BS6PFI\Documents\GitHub\BlockUA\backend\BlockUA_API\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Павло.DESKTOP-1BS6PFI\Documents\GitHub\BlockUA\backend\BlockUA_API\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+C:\Users\Павло.DESKTOP-1BS6PFI\Documents\GitHub\BlockUA\backend\BlockUA_API\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+C:\Users\Павло.DESKTOP-1BS6PFI\Documents\GitHub\BlockUA\backend\BlockUA_API\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\Павло.DESKTOP-1BS6PFI\Documents\GitHub\BlockUA\backend\BlockUA_API\Core\obj\Debug\net8.0\Core.sourcelink.json
+C:\Users\Павло.DESKTOP-1BS6PFI\Documents\GitHub\BlockUA\backend\BlockUA_API\Core\obj\Debug\net8.0\Core.dll
+C:\Users\Павло.DESKTOP-1BS6PFI\Documents\GitHub\BlockUA\backend\BlockUA_API\Core\obj\Debug\net8.0\refint\Core.dll
+C:\Users\Павло.DESKTOP-1BS6PFI\Documents\GitHub\BlockUA\backend\BlockUA_API\Core\obj\Debug\net8.0\Core.pdb
+C:\Users\Павло.DESKTOP-1BS6PFI\Documents\GitHub\BlockUA\backend\BlockUA_API\Core\obj\Debug\net8.0\ref\Core.dll

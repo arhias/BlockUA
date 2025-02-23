@@ -1,12 +1,13 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using Core.Interfaces;
 using Core.Models;
 using Microsoft.IdentityModel.Tokens;
 
 namespace Core.Sevices;
 
-public class JwtService
+public class JwtService : IJwtService
 {
     private readonly JwtOptions jwtOptions;
 

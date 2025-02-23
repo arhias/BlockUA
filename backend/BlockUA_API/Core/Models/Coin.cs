@@ -9,8 +9,8 @@ public class Coin
     [BsonRepresentation(BsonType.ObjectId)]
     public ObjectId Id { get; set; }
     public string Name { get; set; }
-    public double TotalCost { get; set; }
-    public double? Capitalization { get; set; }
+    //public double TotalCost { get; set; }
+    //public double? Capitalization { get; set; }
 
     public List<ExchangeRate> ExchangeRates = [];
 
@@ -18,16 +18,16 @@ public class Coin
     {
         Id = new ObjectId();
         Name = name;
-        TotalCost = totalCost;
+        //TotalCost = totalCost;
     }
 
-    public Coin(string name, double totalCost, double capitalization)
-    {
-        Id = new ObjectId();
-        Name = name;
-        TotalCost = totalCost;
-        Capitalization = capitalization;
-    }
+    // public Coin(string name, double totalCost, double capitalization)
+    // {
+    //     Id = new ObjectId();
+    //     Name = name;
+    //     TotalCost = totalCost;
+    //     Capitalization = capitalization;
+    // }
     
     public object ToDtoString()
     {
@@ -35,8 +35,8 @@ public class Coin
         {
             Id = Id.ToString(),
             Name,
-            TotalCost,
-            Capitalization,
+            //TotalCost,
+            //Capitalization,
             ExchangeRates = ExchangeRates.Select(rate => rate.ToDtoString()).ToArray()
         };
     }
@@ -47,8 +47,8 @@ public class Coin
         {
             Id,
             Name,
-            TotalCost,
-            Capitalization,
+            //TotalCost,
+            //Capitalization,
             ExchangeRates = ExchangeRates.Select(rate => rate.ToDto()).ToArray()
         };
     }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlockUA_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aaa32aad22f7fcf3e181bba25af33566e4a4f0c0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0de81d708934b36b015244ba97b3c210c3220d8f")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlockUA_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlockUA_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
