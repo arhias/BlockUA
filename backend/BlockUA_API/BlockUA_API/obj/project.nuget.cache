@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "q8UW6boEpNc=",
+  "dgSpecHash": "4khvviDMnGM=",
   "success": true,
   "projectFilePath": "C:\\Users\\Павло.DESKTOP-1BS6PFI\\Documents\\GitHub\\BlockUA\\backend\\BlockUA_API\\BlockUA_API\\BlockUA_API.csproj",
   "expectedPackageFiles": [
@@ -56,6 +56,7 @@
     "C:\\Users\\Павло.DESKTOP-1BS6PFI\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\Павло.DESKTOP-1BS6PFI\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\Павло.DESKTOP-1BS6PFI\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\Павло.DESKTOP-1BS6PFI\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.13\\microsoft.aspnetcore.authentication.jwtbearer.8.0.13.nupkg.sha512",
     "C:\\Users\\Павло.DESKTOP-1BS6PFI\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.24\\microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
     "C:\\Users\\Павло.DESKTOP-1BS6PFI\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\Павло.DESKTOP-1BS6PFI\\.nuget\\packages\\microsoft.bcl.memory\\9.0.0\\microsoft.bcl.memory.9.0.0.nupkg.sha512",
@@ -82,6 +83,8 @@
     "C:\\Users\\Павло.DESKTOP-1BS6PFI\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.6.0\\microsoft.identitymodel.abstractions.8.6.0.nupkg.sha512",
     "C:\\Users\\Павло.DESKTOP-1BS6PFI\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.6.0\\microsoft.identitymodel.jsonwebtokens.8.6.0.nupkg.sha512",
     "C:\\Users\\Павло.DESKTOP-1BS6PFI\\.nuget\\packages\\microsoft.identitymodel.logging\\8.6.0\\microsoft.identitymodel.logging.8.6.0.nupkg.sha512",
+    "C:\\Users\\Павло.DESKTOP-1BS6PFI\\.nuget\\packages\\microsoft.identitymodel.protocols\\7.1.2\\microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
+    "C:\\Users\\Павло.DESKTOP-1BS6PFI\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.1.2\\microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
     "C:\\Users\\Павло.DESKTOP-1BS6PFI\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.6.0\\microsoft.identitymodel.tokens.8.6.0.nupkg.sha512",
     "C:\\Users\\Павло.DESKTOP-1BS6PFI\\.nuget\\packages\\microsoft.net.stringtools\\17.8.3\\microsoft.net.stringtools.17.8.3.nupkg.sha512",
     "C:\\Users\\Павло.DESKTOP-1BS6PFI\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",

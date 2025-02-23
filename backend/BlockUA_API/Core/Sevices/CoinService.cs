@@ -5,12 +5,12 @@ using MongoDB.Driver;
 
 namespace Core.Sevices;
 
-public class CoinService(BlockUaDbContext context, PasswordHasher hasher) : ICoinService
+public class CoinService(BlockUaDbContext context) : ICoinService
 {
-    public async Task<Response> CreateCoin(string name, double totalCost = 0, double? capitalization = null)
+    public async Task<Response> CreateCoin(string name, double totalCost = 0/*, double? capitalization = null*/)
     {
         Coin coin = new Coin(name, totalCost);
-        if (capitalization != null) coin.Capitalization = capitalization;
+        //if (capitalization != null) coin.Capitalization = capitalization;
         await context.Coins.InsertOneAsync(coin);
         return new Response(200, "Coin created successfully");
     }
@@ -36,7 +36,7 @@ public class CoinService(BlockUaDbContext context, PasswordHasher hasher) : ICoi
     {
         var coin = await context.Coins.Find(c => c.Id.ToString().Equals(coinId)).FirstOrDefaultAsync();
         if (coin == null) return new Response(404, "Coin not found");
-        var wallets = context.Wallets.Find(new BsonDocument()).ToList();
+        var wallets = await context.Wallets.Find(new BsonDocument()).ToListAsync();
         double sum = 0;
         foreach (var wallet in wallets)
         {
@@ -62,7 +62,7 @@ public class CoinService(BlockUaDbContext context, PasswordHasher hasher) : ICoi
 
     public async Task<Response> GetCoins()
     {
-        List<Coin> coins = context.Coins.Find(new BsonDocument()).ToList();
+        List<Coin> coins = await context.Coins.Find(new BsonDocument()).ToListAsync();
         if (coins == null) return new Response(404, "Coins not found");
         return new Response(200, "Successfully", coins.Select(c => c.ToDtoString()));
     }
@@ -73,4 +73,13 @@ public class CoinService(BlockUaDbContext context, PasswordHasher hasher) : ICoi
         if (coin == null) return new Response(404, "Coin not found");
         return new Response(200, "Successfully", coin.ExchangeRates.Select(er => er.ToDtoString()));
     }
+
+    // public async Task<Response> BuyCoin(string coinId, double count, double cost, string userId)
+    // {
+    //     var user = await context.Users.Find(u => u.Id.ToString().Equals(userId)).FirstOrDefaultAsync();
+    //     if (user == null) return new Response(404, "User not found");
+    //     var coin = await context.Coins.Find(c => c.Id.ToString().Equals(coinId)).FirstOrDefaultAsync();
+    //     if (coin == null) return new Response(404, "Coin not found");
+    //     var wallet = await context.Wallets.Find(w => w.UserId.Equals(userId)).FirstOrDefaultAsync();
+    // }
 }

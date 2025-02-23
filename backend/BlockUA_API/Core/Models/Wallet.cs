@@ -14,6 +14,12 @@ public class Wallet
 
     public Dictionary<string, double> Coins = new Dictionary<string, double>();
 
+    public Wallet(ObjectId userId)
+    {
+        Id = new ObjectId();
+        UserId = userId;
+    }
+
     public void AddCoin(string coinId, double count)
     {
         if (!Coins.TryAdd(coinId, count))
