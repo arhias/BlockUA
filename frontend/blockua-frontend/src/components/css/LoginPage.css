@@ -1,0 +1,139 @@
+/* LoginPage.css */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #121b2a; /* Темный фон */
+  color: #fff; /* Белый текст для контраста */
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff; /* Белый текст для заголовка */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  background-color: #1c2d41; /* Более темный фон для формы */
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.login-input {
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #555; /* Темная граница */
+  border-radius: 5px;
+  background-color: #2a3b4c; /* Темно-серый фон для инпута */
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.login-input:focus {
+  border-color: #007bff; /* Синий цвет при фокусе */
+  background-color: #1f2f3b; /* Еще темнее фон при фокусе */
+  outline: none;
+}
+
+.login-button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #007bff; /* Синий фон для кнопки */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+}
+
+.login-button:hover {
+  background-color: #0056b3; /* Темный синий при наведении */
+}
+
+.separator {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #2a3b4c; /* Темный фон для социальных кнопок */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.social-button:hover {
+  background-color: #3a4d64; /* Немного светлее при наведении */
+}
+
+.social-button i {
+  margin-right: 8px;
+}
+
+.social-button.google {
+  background-color: #db4437; /* Красный для Google */
+}
+
+.social-button.apple {
+  background-color: #333; /* Черный для Apple */
+}
+
+.social-button.telegram {
+  background-color: #0088cc; /* Синий для Telegram */
+}
+
+.signup-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup-link a {
+  color: #007bff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #007bff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

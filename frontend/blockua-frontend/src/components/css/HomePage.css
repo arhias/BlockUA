@@ -1,0 +1,17 @@
+.homepage-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .homepage-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .homepage-description {
+    font-size: 1rem;
+    color: #555;
+  }
+  
